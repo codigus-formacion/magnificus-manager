@@ -1,0 +1,81 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SrcWriter",
+            "request": "launch",
+            "mainClass": "magnificus.controllers.apps.SrcWriter",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "AppsWriter",
+            "request": "launch",
+            "mainClass": "magnificus.controllers.apps.AppsWriter",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "magnificus.codigus.App",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "MKDocsWriter",
+            "request": "launch",
+            "mainClass": "magnificus.controllers.mkdocs.MKDocsWriter",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "ApplicationsGenerator",
+            "request": "launch",
+            "mainClass": "magnificus.generators.applications.ApplicationsGenerator",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "MKDocsGenerator",
+            "request": "launch",
+            "mainClass": "magnificus.generators.mkdocs.MKDocsGenerator",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "Codigus",
+            "request": "launch",
+            "mainClass": "magnificus.codigus.Codigus",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "magnificus.App",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "codigus.App",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "codigus.core.App",
+            "projectName": "codigus"
+        },
+        {
+            "type": "java",
+            "name": "codigus",
+            "request": "launch",
+            "mainClass": "core.App",
+            "vmArgs": "-enableassertions"
+        }
+    ]
+}

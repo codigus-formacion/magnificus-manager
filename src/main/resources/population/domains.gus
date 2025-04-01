@@ -1,0 +1,269 @@
+.Dominios - domains
+..Miscelanea - miscellany
+...Textos - texts
+....Hola - hello
+.....Nombre - name
+.....Adios - bye
+......Nombre - name
+....Eco - echo
+.....Triple - tripe
+....Morse - morse
+....Discurso - speech
+...Números - numbers
+....Divisibilidad - divisibility
+.....Pariedad - parity
+.....Máximo Común Divisor - gcd
+.....Mínimo Común Múltiplo - lcm
+.....Divisores - divisors
+......Perfectos - perfects
+......Amigos - friends
+......Primos - primes
+.......Millón de Primos - firstMillon
+.......Primos en Primer Millón - inFirstMillion
+....Sistemas de Numeración - numberSystems
+.....Binario - binary
+......Octal - octal
+.......Hexadecimal - hexadecimal
+....Combinatoria - combinatory
+.....Factorial - factorial
+.....Potencia - power
+.....Combinaciones - combinatioins
+.....Variaciones - variations
+.....Permutaciones - permutations
+.....Binomio de Newton - binomial
+....Series - series
+.....Estidísticas - statistics
+.....Armónica - armonyc
+.....Geométrica - geometric
+.....Fibonacci - fibonacci
+.....Aleatoria - random
+.....Ordenada - order
+....Monedas - coins
+.....Configurable - customizable
+......Backtracking - backtracking
+....Validación de DNI - dni
+.....Alternativas por Error - alternatives
+....Temperaturas - temperature
+...Geometría - geomtry
+....Poligonos - polygons
+.....Cuadrados - square
+.....Rectángulos - rectangle
+.....Circulos - circle
+.....Triangulos - triangle
+......Validación - validation
+......Clasificación - clasification
+.....Poligono - polygon
+....Pixels - pixels
+.....Simples - simples
+......Fila - row
+.......Intervalo - range
+......Columna - column
+.......Intervalo - range
+......Diagonal - diagonal
+.......Intervalo - range
+......Inversa - inverse
+.......Intervalo - range
+......Circulo - circle
+.......Intervalo - range
+.....Compuestas - composite
+......Cruz - cross
+.......Intervalo - range
+......Aspa - blade
+.......Intervalo - range
+......Cuadrado - square
+......Rombo - diamond
+....Caracteres - characters
+.....Digito - digit
+......Número - number
+.....Texto - text
+......Circular - circular
+....Identicon - identicon
+....Lápiz - lápiz
+....Fibonacci - fibonacci
+..Valores - values
+...Fecha - date
+....Bisiesto - leapYear
+....Formato - format
+.....Internacional - international
+......Imprimir - print
+......Validación - validation
+.....Inglés - english
+......Imprimir - print
+......Validación - validation
+.....Letra - letter
+....Características - characteristics
+.....Navidad - christmas
+.....Estación - season
+.....Siglo - century
+....Comparaciones - compare
+.....Igualdad - equals
+.....Ayer - yesterday
+.....Mañana - tomorrow
+.....Aleatoria - random
+....Comparaciones - comparator
+.....Anterior - before
+.....Posterior - after
+.....Igual - equals
+...Intervalo - interval
+....Análisis - analysis
+...Hora - time
+...Coordinate - coordinate
+...Fraccion - fraction
+...Número Complejo - complex
+...Color - color
+....Color Secundario - secondaryColor
+...Moneda - currency
+....Euro a Dollar - euroDollar
+....Dollar a Euro - dollarToEuro
+..Vistas - views
+...Consola - console
+....Color - color
+...Campos - fields
+...Informes - reports
+...Menús - menus
+...Comandos - commands
+..Colecciones - collections
+...Conjuntos - sets
+....Enteros - integers
+....Intervalos - intervals
+...Dispensadores - dispenser
+....Enteros - integers
+....Intervalos - intervals
+...Listas - lists
+....Enteros - integers
+....Intervalos - intervals
+...Árboles - trees
+....Enteros - integers
+....Intervalos - intervals
+...Grafos - graphs
+....Enteros - integers
+....Intervalos - intervals
+...Diccionarios - maps
+..Gestores - managers
+...Elecciones - elections
+...Servicios - services
+...Supermercado - supermarket
+...Películas - movies
+...UMLgus - umlgus
+....Ingeniería Directa - direct
+.....Visor de PlantUML - plantuml
+.....Visor de UMLgus - umlgus
+.....Visor de SVG - svg
+.....Generador de Código - code
+....Ingeniería Inversa - inverse
+.....Analizador de Código - code
+.....Analizador de Métricas - metrics
+.....Analizador de UMLgus - umlgus
+..Juegos - games
+...Mastermind - mastermind
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...TicTacToe - tictactoe
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...Conecta 4 - connect4
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...Klondike - klondike
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...Poker - poker
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...Damas - draughts
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...Ajedrez - chess
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
+...Tetris - tetris
+....Interfaz con Menus - menus
+.....Interfaz con Comandos - commands
+......Funcionalidad con Deshacer/Rehacer - undoRedo
+.......Funcionalidad con Demo - demo
+........Funcionalidad con Persistencia - persistence
+.........Protocolo TCP/IP - tcp/ip
+.........Protocolo HTTP - http
+.........Protocolo REST - rest
+.........Protocolo GraphQL - graphQL
+.........Interfaz Web - web
+.........Interfaz Móvil - movil
+.......Framework codigus - frameGUS
+....Interfaz Multilenguaje - multiLanguage
