@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15% 70% 15%; /* Left aside 25%, main 50%, right aside 25% */
+    grid-template-rows: 1fr auto auto; /* Add space for the new footer */
+    height: calc(100vh - 80px); /* Adjust height to account for both footers */
+    font-family: 'Open Sans', sans-serif; /* Set Open Sans as the font for the entire page */
+    font-size: 14px; /* Match font size with the right aside */
+}
+
+aside {
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+aside, main {
+    margin: 5px; /* Added margin */
+    padding: 5px; /* Added padding */
+    background-color: #f0f0f0; /* Light gray background */
+    height: calc(100% - 80px); /* Ensure asides and main have the same height */
+}
+
+.left-aside, .right-aside {
+    height: calc(100vh - 100px); /* Reduce height by another 10px */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Align all elements to the bottom */
+}
+
+main {
+    grid-column: 2 / 3; /* Middle column */
+    padding: 10px;
+    background-color: #ffffff;
+    color: rgb(185, 23, 23); /* Set text color to red */
+    height: calc(100vh - 80px); /* Ensure main matches the height of the asides */
+}
+
+footer {
+    grid-column: 1 / -1; /* Span all columns */
+    background-color: #ffffff; /* Set footer background to white */
+    color: #000; /* Set footer text color to black */
+    text-align: center;
+    padding: 5px 20px; /* Reduce padding to approximate text height */
+    position: fixed;
+    bottom: 0;
+    width: calc(95% + 15px); /* Increase width by 5px */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribute elements across the footer */
+    font-size: 14px; /* Adjust font size for better alignment */
+    margin: 0 auto 3px 5px; /* Add left margin of 5px */
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+    margin-left: 0; /* Ensure no extra spacing on the left of the logo */
+    margin-right: 3px; /* Add spacing between the logo and the search control */
+}
+
+.footer-nav {
+    display: flex;
+    gap: 15px;
+    margin-left: auto; /* Push the links to the right */
+}
+
+.footer-nav a {
+    color: #000; /* Set footer link color to black */
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-nav a:last-child {
+    margin-right: 30px; /* Increase separation from the right edge to 30px */
+}
+
+.footer-search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 10px; /* Added separation */
+    margin-right: 3px; /* Move the search control 3px to the left of the logo */
+}
+
+.footer-search-input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.footer-search-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer-search-button:hover {
+    background-color: #0056b3;
+}
+
+.left-buttons {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 2px; /* Add 2px spacing between buttons */
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the icon inside the button */
+    background-color: rgb(185, 23, 23); /* Set background color to red */
+    color: white;
+    border: none;
+    padding: 10px; /* Adjust padding for better appearance */
+    border-radius: 4px;
+    cursor: pointer;
+    width: 40px; /* Set fixed width */
+    height: 40px; /* Set fixed height */
+}
+
+.icon-button:hover {
+    background-color: #a51717; /* Darker shade for hover effect */
+}
+
+.button-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.profesor-image {
+    width: 100%; /* Ensure the image occupies the full width of the aside */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure no inline spacing */
+    margin: 0 0 10px 0; /* Add margin below the image */
+    max-height: 100%; /* Allow it to use the full height of the aside */
+    object-fit: cover; /* Ensure it covers the available space proportionally */
+}
+
+.main-table {
+    width: 100%; /* Table occupies 100% of the main */
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.main-table td {
+    width: 50%; /* Each column occupies 50% */
+    padding: 10px;
+}
+
+.table-image {
+    width: 100%; /* Make the image occupy the full width of its column */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image within the column */
+}
+
+.right-aside-links {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center-align the links */
+    text-align: right; /* Align links to the right */
+}
+
+.right-aside-links li {
+    margin: 5px 0; /* Add 5px spacing between list items */
+}
+
+.right-aside-links a {
+    text-decoration: none;
+    color: #000; /* Set link color */
+    margin-right: 5px; /* Add 5px spacing between links */
+}
+
+.right-aside-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.secondary-footer {
+    grid-column: 1 / -1; /* Span all columns */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #000; /* Black text color */
+    text-align: center;
+    padding: 5px 20px; /* Match padding with the existing footer */
+    font-size: 14px; /* Match font size with the existing footer */
+    position: fixed;
+    bottom: 40px; /* Place above the existing footer */
+    width: calc(95% + 15px); /* Increase width by 5px */
+    height: 40px; /* Same height as the existing footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 3px 5px; /* Add left margin of 5px */
+}
+
+.secondary-footer .footer-nav {
+    justify-content: flex-end; /* Align links to the right */
+    display: flex;
+    gap: 15px; /* Add spacing between links */
+}
+
+.activo {
+    color: rgb(185, 23, 23); /* Set text color to red */
+    font-weight: bold; /* Ensure bold styling */
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-time {
+  color: rgb(185, 23, 23);
+  font-size: large;
+}
+
+.code-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.code-block .language-java {
+    color: #333;
+    white-space: pre-wrap;
+}
+
+.code-block .language-java .keyword {
+    color: #007BFF; /* Blue for reserved keywords */
+    font-weight: bold;
+}
+
+.code-block .language-java .separator {
+    color: #FF5733; /* Orange for separators like braces, parentheses, etc. */
+}
+
+.code-block .language-java .string {
+    color: #28A745; /* Green for strings */
+}
+
+.code-block .language-java .comment {
+    color: #6C757D; /* Gray for comments */
+    font-style: italic;
+}
+
+main, aside, footer {
+    font-family: inherit; /* Inherit font family from body */
+    font-size: inherit; /* Inherit font size from body */
+}
