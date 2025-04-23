@@ -60,12 +60,10 @@ public abstract class Unit {
     }
 
     public List<Unit> ancestors() {
-        assert isChild();
-
         return this.father
-                .map(unit -> {
-                    List<Unit> ancestors = unit.ancestors();
-                    ancestors.add(unit);
+                .map(father -> {
+                    List<Unit> ancestors = father.ancestors();
+                    ancestors.add(father);
                     return ancestors;
                 })
                 .orElse(new ArrayList<Unit>());
@@ -92,18 +90,14 @@ public abstract class Unit {
     }
 
     public List<Unit> descendantsOrSelf(Optional<Integer> depth) {
-        assert this.isChild();
-
         List<Unit> descendantsOrSelf = new ArrayList<>();
         descendantsOrSelf.add(this);
         if (depth.isPresent() && depth.get() == 0) {
             return descendantsOrSelf;
         }
         this.childs().stream().forEach(unit -> {
-            descendantsOrSelf.addAll(unit.descendantsOrSelf(
-                    depth.isPresent() ? Optional.of(depth.get() - 1) : Optional.empty()));
+            descendantsOrSelf.addAll(unit.descendantsOrSelf(depth.map(nextDepth -> nextDepth - 1)));
         });
-
         return descendantsOrSelf;
     }
 

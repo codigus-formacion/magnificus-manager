@@ -20,9 +20,9 @@ public class Topic extends Unit {
         if (hasContext) {
             List<Pair<String, String>> CONTEXTS = Arrays.asList(
                     new Pair<String, String>("¿Por qué?", "why"),
-                    new Pair<String, String>("¿Por qué?", "what"),
-                    new Pair<String, String>("¿Por qué?", "whatFor"),
-                    new Pair<String, String>("¿Por qué?", "how"));
+                    new Pair<String, String>("¿Qué?", "what"),
+                    new Pair<String, String>("¿Para qué?", "whatFor"),
+                    new Pair<String, String>("¿Cómo?", "how"));
             IntStream.range(0, CONTEXTS.size())
                     .forEach(i -> {
                         Context context = new Context(CONTEXTS.get(i).getKey(), CONTEXTS.get(i).getValue());

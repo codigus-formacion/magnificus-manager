@@ -1,6 +1,5 @@
-package magnificus.controllers.apps;
+package magnificus.codigus;
 
-import magnificus.codigus.Codigus;
 import magnificus.controllers.Writer;
 import magnificus.units.PathKey;
 import magnificus.units.Topic;

@@ -12,8 +12,8 @@ public class Key {
         this.string = string;
     }
 
-    public void setPreffix(String string, int position){
-        this.string = "" + Character.toLowerCase(string.charAt(0)) + position + this.string;
+    public void setPreffix(String preffix, int position){
+        this.string = "" + Character.toLowerCase(preffix.charAt(0)) + position + this.string;
     }
 
     public void set(String string){

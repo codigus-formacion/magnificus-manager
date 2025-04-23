@@ -1,6 +1,5 @@
 package magnificus.codigus;
 
-import magnificus.controllers.apps.SrcWriter;
 import magnificus.controllers.mkdocs.MKDocsWriter;
 import magnificus.units.Application;
 import magnificus.units.CompositeUnit;
