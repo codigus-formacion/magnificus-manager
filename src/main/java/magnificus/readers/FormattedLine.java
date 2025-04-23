@@ -1,6 +1,6 @@
-package magnificus.codigus;
+package magnificus.readers;
 
-class FormattedLine {
+public class FormattedLine {
     
     private static final String CHILD = ".";
     private static final String SEPARATOR = " - ";

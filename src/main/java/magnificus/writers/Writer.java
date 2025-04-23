@@ -1,4 +1,4 @@
-package magnificus.controllers;
+package magnificus.writers;
 
 import magnificus.units.Application;
 import magnificus.units.CompositeUnit;

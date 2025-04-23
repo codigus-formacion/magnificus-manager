@@ -1,4 +1,4 @@
-package magnificus.codigus;
+package magnificus.readers;
 
 import java.util.List;
 import java.util.Stack;

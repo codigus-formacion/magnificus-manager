@@ -1,9 +1,9 @@
-package magnificus.controllers.mkdocs;
+package magnificus.writers.mkdocs;
 
 import java.util.Arrays;
 
-import magnificus.codigus.Codigus;
-import magnificus.controllers.Writer;
+import magnificus.Codigus;
+import magnificus.writers.Writer;
 import magnificus.units.Unit;
 import utils.Console;
 

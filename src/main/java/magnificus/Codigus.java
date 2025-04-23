@@ -1,6 +1,10 @@
-package magnificus.codigus;
+package magnificus;
 
-import magnificus.controllers.mkdocs.MKDocsWriter;
+import magnificus.readers.AppsFileReader;
+import magnificus.readers.FormattedLine;
+import magnificus.readers.UnitTreeFileReader;
+import magnificus.writers.mkdocs.MKDocsWriter;
+import magnificus.writers.mkdocs.SrcWriter;
 import magnificus.units.Application;
 import magnificus.units.CompositeUnit;
 import magnificus.units.Domain;
@@ -52,7 +56,7 @@ public class Codigus extends CompositeUnit {
         codigus.descendantsOrSelf().stream()
                 .forEach(unit -> Console.instance().writeln(unit.pathKey()));
                 codigus.accept(new MKDocsWriter("../magnificus-mkdocs"));
-                codigus.accept(new SrcWriter("./magnificus-apps"));
+                codigus.accept(new SrcWriter("../magnificus-apps"));
         Console.close("testCase");
     }
 

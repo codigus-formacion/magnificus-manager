@@ -1,6 +1,6 @@
-package magnificus.controllers.uml;
+package magnificus.writers.uml;
 
-import magnificus.controllers.Writer;
+import magnificus.writers.Writer;
 import magnificus.units.Unit;
 
 public class PlantUMLWriter extends Writer {

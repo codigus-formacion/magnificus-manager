@@ -1,6 +1,6 @@
-package magnificus.controllers.mkdocs;
+package magnificus.writers.mkdocs;
 
-import magnificus.controllers.FileWriter;
+import magnificus.writers.FileWriter;
 import magnificus.units.Application;
 import magnificus.units.CompositeUnit;
 import magnificus.units.Context;

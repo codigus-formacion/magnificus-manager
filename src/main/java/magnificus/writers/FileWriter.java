@@ -1,4 +1,4 @@
-package magnificus.controllers;
+package magnificus.writers;
 
 import java.util.regex.Pattern;
 import java.util.stream.IntStream;
